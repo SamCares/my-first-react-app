@@ -7,3 +7,57 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-btn {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #45a049;
+  font-weight: 600;
+}
+
+.counter-label {
+  text-align: center;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.form-container {
+  max-width: 600px;
+  padding: 25px;
+  width: 100%;
+  margin: auto 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
